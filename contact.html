@@ -27,7 +27,7 @@
                             <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/about.html">About</a>
+                            <a class="nav-link" href="/about.html">About</a>
                         </li>
                         
                         <li class="nav-item dropdown">
@@ -47,7 +47,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact</a>
+                        <a class="nav-link active" href="/contact.html">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -59,36 +59,41 @@
     </nav>
 
     <div class="container my-4 ">
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">It all started with iCoder's Idea <span class="text-muted">It’ll blow your mind.</span></h2>
-              <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="img-fluid" src="https://source.unsplash.com/random/400x400/?students,coding" alt="">
-            </div>
+        <h2>Contact Us</h2>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
 
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">We started iCoder in 1877 <span class="text-muted">It’ll blow your mind.</span></h2>
-              <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-              <img class="img-fluid" src="https://source.unsplash.com/random/400x400/?tech,coding,laptop" alt="">
-            </div>
-          </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Your Query</label>
+            <select  class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            </select>
+        </div>
 
-          <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-              <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="img-fluid" src="https://source.unsplash.com/random/400x400/?office,meetings" alt="">
-            </div>
-          </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Select Types</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            </select>
+        </div>
 
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Elaborate Your Concern</label>
+            <textarea  class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        </div>
+
+        <button class="btn btn-primary">Submit</button>
     </div>
     
     <footer class="container">
